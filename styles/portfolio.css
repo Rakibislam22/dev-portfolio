@@ -47,7 +47,11 @@ nav h2 {
     font-size: 45px;
 }
 
-
+.head {
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
 
 nav {
     display: flex;
@@ -83,4 +87,19 @@ nav ul li {
 
 nav ul a {
     text-decoration: none;
+}
+
+.pp {
+    width: 584px;
+    height: 476;
+}
+
+.bannar {
+    display: flex;
+    margin: 0 35px 0 200px;
+    justify-content: space-between;
+}
+
+.bannar-content {
+    max-width: 585px;
 }
