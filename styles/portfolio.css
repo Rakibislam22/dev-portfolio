@@ -7,3 +7,53 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* fort color */
+.dark-1 {
+    color: #181818;
+}
+span{
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    padding: 18px 35px;
+    
+}
+
+nav h2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+   list-style: none;
+   margin-right: 50px;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+}
