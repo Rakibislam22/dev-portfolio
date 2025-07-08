@@ -12,6 +12,11 @@
 .dark-1 {
     color: #181818;
 }
+
+.dark-2 {
+    color: #474747;
+}
+
 span{
     color: #FD6E0A;
 }
@@ -22,11 +27,19 @@ span{
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
-    width: 150px;
-    height: 64px;
     font-size: 20px;
     padding: 18px 35px;
     
+}
+.Contact-btn {
+    background-color: transparent;
+    font-weight: bold;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    padding: 18px 35px;
+    margin: 30px;
 }
 
 nav h2 {
@@ -41,6 +54,20 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+}
+
+.bannar-gritings {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.bannar-head {
+    font-size: 85px;
+    font-weight: 700;
+}
+.bannar-des {
+    font-size: 18px;
+    color: #757575;
 }
 
 nav ul {
