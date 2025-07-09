@@ -232,6 +232,8 @@ hr {
     display: flex;
     background-color: #FFF8F3;
     gap: 100px;
+
+    padding-bottom: 110px;
     
 }
 
@@ -272,4 +274,8 @@ input[type="text"],footer textarea,input[type="email"]{
     font-size: 16px;
     border: none;
    
+}
+
+.c {
+    margin: 0;
 }
