@@ -9,7 +9,8 @@
 }
 
 .bg-color {
-    color: #FFF8F3;
+    background-color: #FFF8F3;
+    
 }
 
 /* font color */
@@ -131,4 +132,27 @@ main {
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
+}
+
+.about-fg-c {
+        background-color: #FFFFFF;
+        padding: 5px;
+        border: 2px;
+        border-color: black; 
+}
+
+.items {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.item-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.item-des {
+    font-size: 20px; 
+    color: #474747;
+    font-weight: bold; 
 }
