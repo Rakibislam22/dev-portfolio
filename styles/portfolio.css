@@ -262,7 +262,7 @@ hr {
 }
 
 
-input[type="text"],footer textarea,input[type="email"]{
+input[type="text"],input[type="email"]{
     height: 64px;
     width: 100%;
     border-radius: 5px;
@@ -274,6 +274,19 @@ input[type="text"],footer textarea,input[type="email"]{
     font-size: 16px;
     border: none;
    
+}
+
+footer textarea {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    border: none;
 }
 
 .c {
