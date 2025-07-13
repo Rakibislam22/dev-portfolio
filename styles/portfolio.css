@@ -36,6 +36,10 @@ span{
     padding: 18px 35px;
     
 }
+.primary-btn:hover {
+    background-color: #e47526;
+    transform: scale(1.035);
+}
 .Contact-btn {
     background-color: transparent;
     font-weight: bold;
@@ -291,4 +295,9 @@ footer textarea {
 
 .c {
     margin: 0;
+}
+
+.primary-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
