@@ -301,3 +301,57 @@ footer textarea {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        margin: 0 auto;
+    
+    }
+
+    .head {
+        background-image: url('../images/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 420px auto;
+    }
+
+    .bannar {
+        flex-direction: column;
+        margin: 0 15px 0 50px;
+     
+    }
+
+    .bannar-head {
+        font-size: 65px;
+    }
+
+    .pp{
+        width: auto;
+        height: auto;
+    }
+
+    .about {
+        padding: 20px 20px;
+    }
+    .about-fg-c {
+        padding: 2px;
+        border: 2px;
+        border-radius: 8px;
+       
+    }
+    .items {
+        flex-direction: column;
+    }
+
+    .done { 
+        padding: 15px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    
+}
