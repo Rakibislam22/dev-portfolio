@@ -351,6 +351,37 @@ footer textarea {
 
     .skills {
         flex-direction: column;
+        margin: 50px;
+    }
+
+    .resume-t {
+        margin: 130px 0 50px 0;
+    }
+
+    .ee {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .main-div {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .foot {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .Contact {
+        margin: 0 auto;
+    }
+
+    .input-fild {
+        
+        width: calc(100% - 50px);
+
+        margin-top: 10px;
+        margin-bottom: 100px;
     }
 
     
